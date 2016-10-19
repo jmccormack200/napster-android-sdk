@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primary_dark">
+
+    <ImageView
+        android:id="@+id/notif_image_view"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_alignTop="@id/notif_image_view"
+        android:layout_marginLeft="@dimen/padding_small"
+        android:layout_marginRight="@dimen/padding_large"
+        android:paddingTop="@dimen/padding_x_small"
+        android:layout_toRightOf="@id/notif_image_view"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/notif_track_name"
+                style="@style/notification_text_title"/>
+
+            <TextView
+                android:id="@+id/notif_artist_name"
+                style="@style/notification_text_content"/>
+
+            <TextView
+                android:id="@+id/notif_album_name"
+                style="@style/notification_text_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/notif_btn_previous"
+                style="@style/player_button"/>
+
+            <ImageButton
+                android:id="@+id/notif_btn_play_pause"
+                style="@style/player_button"/>
+
+            <ImageButton
+                android:id="@+id/notif_btn_next"
+                style="@style/player_button"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/notif_btn_close"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/padding_x_small"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"/>
+
+</RelativeLayout>

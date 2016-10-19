@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Napster Sdk Station Player Sample</string>
+    <string name="top_stations">Top stations</string>
+    <string name="please_login">Please login</string>
+    <string name="tuning">tuning</string>
+    <string name="no_skips">Not enough skips left</string>
+    <string name="popularity">Popularity</string>
+    <string name="variety">Variety</string>
+    <string name="skips_left">Skips left %d</string>
+    <string name="station_player_error">Station player creation error</string>
+    <string name="remove">remove</string>
+    <string name="create_track_radio">Track radio</string>
+    <string name="create_artist_radio">Artist radio</string>
+    <string name="sorry">Sorry</string>
+    <string name="create">Create</string>
+</resources>

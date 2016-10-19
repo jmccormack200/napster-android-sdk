@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="logout">logout</string>
+    <string name="login">login</string>
+    <string name="like">like</string>
+    <string name="dislike">dislike</string>
+    <string name="login_required">Login required</string>
+    <string name="playback_error">Playback error</string>
+    <string name="track_validation_failed">Track validation failed</string>
+
+    <string name="repeat_mode">Repeat mode</string>
+    <string name="repeat_mode_none">None</string>
+    <string name="repeat_mode_single">Single</string>
+    <string name="repeat_mode_all">All</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="login_error">Login error!</string>
+
+</resources>

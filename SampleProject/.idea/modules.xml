@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SampleLibrary/SampleLibrary.iml" filepath="$PROJECT_DIR$/SampleLibrary/SampleLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SampleProject.iml" filepath="$PROJECT_DIR$/SampleProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StationPlayerSampleApp/StationPlayerSampleApp.iml" filepath="$PROJECT_DIR$/StationPlayerSampleApp/StationPlayerSampleApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TopTenSampleApp/TopTenSampleApp.iml" filepath="$PROJECT_DIR$/TopTenSampleApp/TopTenSampleApp.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Napster Sdk Top Ten Sample</string>
+    <string name="top_ten_tracks">Top ten tracks</string>
+    <string name="top_tracks">Top tracks</string>
+    <string name="listening_history">Listening history</string>
+    <string name="delete">Delete</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="load">load</string>
+
+</resources>

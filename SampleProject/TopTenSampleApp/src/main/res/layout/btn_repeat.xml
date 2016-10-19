@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ImageButton
+    android:id="@+id/repeat"
+    style="@style/player_button"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/repeat"/>

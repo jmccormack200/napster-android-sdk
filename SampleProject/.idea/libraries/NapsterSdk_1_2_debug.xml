@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NapsterSdk_1.2_debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SampleLibrary/debugLibs/NapsterSdk_1.2_debug.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
