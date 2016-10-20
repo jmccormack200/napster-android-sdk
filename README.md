@@ -1,7 +1,7 @@
 # Napster Android SDK
 
 ## Current Version
-The current version of the Napster Android SDK is 1.2.
+The current version of the Napster Android SDK is 2.0.
 
 ## Introduction
 The Napster Android SDK was designed to provide a very easy way to integrate streaming music into your Android application. The SDK itself handles playback and is used in conjunction with the [Napster Developer API](http://developer.napster.com) to give your users access to over millions of tracks. The SDK plays full-length tracks for authenticated Napster subscribers.
