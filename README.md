@@ -6,7 +6,7 @@ The current version of the Napster Android SDK is 2.0.
 ## Introduction
 The Napster Android SDK was designed to provide a very easy way to integrate streaming music into your Android application. The SDK itself handles playback and is used in conjunction with the [Napster Developer API](http://developer.napster.com) to give your users access to over millions of tracks. The SDK plays full-length tracks for authenticated Napster subscribers.
 
-We have provided here the SDK ([napster-sdk-1.2.0.jar](https://github.com/Napster/napster-android-sdk/blob/napster-sdk-1.2.0/napster-sdk-1.2.0.jar)) and two sample applications inside the SampleProject which provide examples you can use to build your own app with Napster streaming music.
+We have provided here the SDK ([napster-sdk-1.2.0.jar](https://github.com/Napster/napster-android-sdk/blob/master/NapsterSdk_1.2.jar)) and two sample applications inside the SampleProject which provide examples you can use to build your own app with Napster streaming music.
 
 ## Requirements
 - AndroidStudio 1.0 or higher
@@ -18,7 +18,7 @@ We have provided here the SDK ([napster-sdk-1.2.0.jar](https://github.com/Napste
 - gson
 
 #### SDK Only
-The Napster Android SDK is available as a jar. You can download the [napster-sdk-1.2.0.jar](https://github.com/Napster/napster-android-sdk/blob/napster-sdk-1.2.0/napster-sdk-1.2.0.jar) and add it to your Android Studio project gradle.build file:
+The Napster Android SDK is available as a jar. You can download the [napster-sdk-1.2.0.jar](https://github.com/Napster/napster-android-sdk/blob/master/NapsterSdk_1.2.jar) and add it to your Android Studio project gradle.build file:
 
 ```groovy
 compile files('libs/napster-sdk-1.2.0.jar')
@@ -26,7 +26,7 @@ compile files('libs/napster-sdk-1.2.0.jar')
 
 #### SampleProject
 
-Using Import Project in Android Studio, select the SampleProject folder. After importing, run gradle sync, and you should be ready to build and deploy the sample apps to your device. 
+Using Import Project in Android Studio, select the SampleProject folder. After importing, run gradle sync, and you should be ready to build and deploy the sample apps to your device.
 
 You might be asked to install additional components such as build tools. You may either install them or change the required version in the build.gradle to one you have installed already.
 
@@ -96,5 +96,3 @@ If you use ProGuard or DexGuard, you should add these to your properties file:
 -keep interface com.napster.cedar.** { *; }
 -keep interface com.napster.player.** { *; }
 ```
-
-
